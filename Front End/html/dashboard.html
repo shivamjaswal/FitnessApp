@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your Dashboard</title>
+    <link rel="stylesheet" href="../css/dashboard.css">
+</head>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<body>
+    <header>Dashboard</header>
+    <article>
+        <div id="completeDataBox">
+            <div class="completeData" id="caloriesBurned"></div>
+            <div class="completeData" id="distanceCovered"></div>
+            <div class="completeData" id="stepsTaken"></div>
+            <div class="completeData" id="timespent"></div>
+            <!-- <div class="completeData" id="achievedGoals"></div>
+            <div class="completeData" id="notAchievedGoals"></div> -->
+        </div>
+        <div id="completeDataWithChartBox">
+            <div class="completeDataWithChart">
+                <b>Recent Workout</b>
+                <br><br>
+                <canvas id="workoutChart" width="400" height="200"></canvas>
+            </div>
+            <div class="completeDataWithChart">
+                    <b>Recent Activities</b>
+                    <br><br>
+                <canvas id="activityChart" width="400" height="200"></canvas>
+            </div>
+        </div>
+    </article>
+    <nav id="navMenu">
+        <!-- <ul id="navMenu"> -->
+            <div id="dashboard">Dashboard</div>
+            <div id="workout">Workout</div>
+            <div id="activity">Activity</div>
+            <div id="goal">Goal</div>
+        <!-- </ul> -->
+    </nav>
+    <script src="../js/dashboard.js"></script>
+</body>
+</html>

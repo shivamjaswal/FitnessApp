@@ -1,0 +1,38 @@
+body {
+    margin: auto 0;
+}
+
+#logo {
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.logoCurl {
+    color: blue;
+}
+
+#navMenu {
+    list-style: none;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border: 1px solid black;
+    width: 10vw;
+    height: 90vh;
+    background-color: black;
+
+}
+
+#navMenu div {
+    padding-top: 30px;
+    color: white;
+    width: 95%;
+    padding-left: 10px;
+}
+
+#navMenu div:hover {
+    cursor: pointer;
+    background-color: blue;
+}

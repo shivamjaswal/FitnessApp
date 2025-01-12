@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your Goal</title>
+    <link rel="stylesheet" href="../css/goal.css">
+</head>
+<body>
+    <header>Goal</header>
+    <article>
+        <div id="newGoal">
+            <h3>Post New Goal</h3>
+            <hr>
+            <form>
+                <textarea name="description" id="description" cols="10" rows="5" placeholder="Enter description"></textarea>
+                <br><br>
+                <input type="date" name="startDate" id="startDate" placeholder="Select date" size="50">
+                <br><br>
+                <input type="date" name="endDate" id="endDate" placeholder="Select date" size="50">
+                <br><br>
+                <button>Post Workout</button>
+            </form>
+        </div>
+        <div id="pastGoal">
+            <h3>Past Goal</h3>
+            <hr>
+            <div id="pastGoalList">
+                
+            </div>
+        </div>
+    </article>
+    <nav id="navMenu">
+        <!-- <ul id="navMenu"> -->
+            <div id="dashboard">Dashboard</div>
+            <div id="workout">Workout</div>
+            <div id="activity">Activity</div>
+            <div id="goal">Goal</div>
+        <!-- </ul> -->
+    </nav>
+    <script src="../js/goal.js"></script>
+</body>
+</html>

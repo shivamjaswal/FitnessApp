@@ -1,0 +1,83 @@
+header {
+    text-align: center;
+    font-size: 3rem;
+}
+
+#navMenu {
+    list-style: none;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border: 1px solid black;
+    width: 10vw;
+    height: 90vh;
+    background-color: black;
+}
+
+#navMenu div {
+    padding-top: 30px;
+    color: white;
+    width: 95%;
+    padding-left: 10px;
+}
+
+#navMenu div:hover {
+    cursor: pointer;
+    background-color: blue;
+}
+
+#newWorkout {
+    width: 700px;
+    height: 500px;
+    background-color: lightgray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -700px;
+    border-radius: 10px;
+}
+
+#pastWorkout {
+    width: 850px;
+    height: 500px;
+    background-color: lightgray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+article h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+input {
+    border-radius: 5px;
+    height: 2rem;
+    padding-left: 10px;
+}
+
+select {
+    border-radius: 5px;
+    height: 2rem;
+    padding-left: 10px;
+}
+
+button {
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 2rem;
+    background-color: white;
+}
